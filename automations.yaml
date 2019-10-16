@@ -1,4 +1,6 @@
-- id: '1570640910196'
+---
+
+- id: 'bedroom-heater-on'
   alias: Bedroom heater on
   trigger:
   - entity_id: sensor.aeon_labs_zw120_door_window_sensor_gen5_access_control_2
@@ -11,7 +13,7 @@
     data:
       entity_id: climate.danfoss_devolo_home_control_radiator_thermostat_heating_1
       temperature: 21
-- id: '1570640910197'
+- id: 'bedroom-heater-off'
   alias: Bedroom heater off
   trigger:
   - entity_id: sensor.aeon_labs_zw120_door_window_sensor_gen5_access_control_2
